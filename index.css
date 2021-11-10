@@ -1,0 +1,47 @@
+span{
+    color: blue;
+}
+li{
+    display: flex;
+    display: inline;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+li.rqst{
+    background-color: blue;
+    color: white;
+    border: 25px 50px;
+    padding: 15px 25px;
+    float: right;
+    margin-right: 40px;
+}
+li.my{
+    font-size:large;
+    font-weight: bold;
+}
+.li{
+    margin-left: 150px;
+    padding:opx 10px;
+   
+}
+header{
+    background-color: white;
+    border: 10px;
+}
+.sect{
+    background-image: url("images/bg.png");
+    color: white;
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+}
+.column h1,p{
+    text-align: center;
+   margin-bottom: 0px;
+}
+.column h1{
+    padding:70px;
+    font-size: xx-large;
+}
+
