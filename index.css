@@ -96,3 +96,10 @@ header{
        float: left;
        
 }
+.column2{
+    display: flex;
+    flex-direction: row;
+    height:30vh;
+    padding: 2rem;
+    justify-content: space-between;
+}
