@@ -1,24 +1,27 @@
-span{
+
+.my span{
     color: blue;
 }
-li{
+ul{
+    margin-left: 200px;
+}
+.li{
+    list-style: none;
     display: flex;
     display: inline;
-    list-style: none;
-    justify-content: space-evenly;
-    padding-left: 20px;
+    padding: 0px;
+    justify-content: space-between;
+
 }
-li.rqst{
+.rqst{
     background-color: blue;
-    color: white;
-    border: 25px 50px;
-    padding: 15px 25px;
     float: right;
-    margin-right: 40px;
 }
+
 li.my{
     font-size:large;
     font-weight: bold;
+
 }
 .li{
     margin-left: 150px;
@@ -39,9 +42,17 @@ header{
 .column h1,p{
     text-align: center;
    margin-bottom: 0px;
+
 }
 .column h1{
     padding:70px;
     font-size: xx-large;
 }
 
+.Service button1{
+    background-color: darkblue;
+    padding: 20px;
+    margin-left: 500px;
+   float: left;
+   
+}
