@@ -3,6 +3,7 @@
     color: blue;
 }
 ul{
+   
     margin-left: 200px;
 }
 .li{
@@ -11,11 +12,19 @@ ul{
     display: inline;
     padding: 0px;
     justify-content: space-between;
+    margin-top: 100px;
 
 }
 .rqst{
     background-color: blue;
     float: right;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    display: inline-block;
+    padding: 0px;
+    
 }
 
 li.my{
@@ -55,4 +64,35 @@ header{
     margin-left: 500px;
    float: left;
    
+}
+.Service button2{ 
+   padding: 20px;
+   margin-left: 500px;
+   float: left;
+   border:5px;  
+}
+.Service{
+    display: flex;
+    display: inline;
+
+}
+.person{
+    justify-content: center;
+}
+.pics{
+    background-image:url("images/Rectangle\ 11.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.pics button3{
+    
+        background-color: darkblue;
+        padding: 20px;
+        margin-left: 500px;
+       float: left;
+       
 }
